@@ -1,0 +1,71 @@
+/* Universal selector */
+*{
+    margin: 0 ;
+    padding: 0;
+    border: 0;
+}
+/* elementor selector/  Name selector */
+body{
+    background-color: rgb(69, 42, 165);
+}
+/* Id selector */
+#admin-box{ 
+background-color: rgb(224, 27, 27);
+color: bla;
+text-align: center;
+width: 50%;
+margin: 5% auto;   padding: 30px;
+border-radius: 10px;
+}
+/* Class selector */
+.admin-image{width: 150PX;
+
+}
+/* Decendent selector */
+#admin-box h1{
+font-size: 35px;
+text-transform: uppercase;
+
+}
+/* grouping selector */
+input,
+label{
+display: block;
+width: 90%;
+margin: auto;
+padding: 10px;
+border-radius: 50px;
+}
+
+input{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+label{
+    font-size: 20px;
+}
+p{font-size: 20px;}
+p a{text-decoration: none;color:rgb(67, 9, 226) ;
+text-transform: uppercase;}
+
+input:focus{
+    background-color: blueviolet;
+}
+input::placeholder{
+    color: black;
+}
+
+input[type="submit"] {
+    background-color: rgb(62, 199, 153);
+    transition: ease-in-out 0.9s;
+    margin-top: 10px auto;
+    width: 25%;
+    border: 1px solid rgb(35, 209, 151) ;
+}
+input[type="submit"]:hover {
+    background-color: transparent;
+    border: 1px solid black
+}
+
+
